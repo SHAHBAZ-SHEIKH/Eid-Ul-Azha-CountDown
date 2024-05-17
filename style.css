@@ -1,0 +1,45 @@
+.main-div{
+    background-image: url('https://alsadatmarketing.com/wp-content/uploads/2023/06/what-is-eid-ul-adha-eid-ul-adha-in-pakistan-2023-al-sadat-marketing-1024x536.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.head-eid h1{
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+.count{
+    width: 160px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+/* .count h5{
+    font-size: 30px;
+} */
+/* .count h3{
+    font-size: 15px;
+    font-weight: bold;
+} */
+
+
+.main2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+@media (max-width:425px){
+    .main2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
